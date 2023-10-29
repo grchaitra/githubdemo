@@ -33,7 +33,7 @@ And I enter billing address details of "<Address>" for digital product
 And I click on digiPlaceOrder in CheckoutPaymentBillingPage
 And I enter paypal login details of "<Paypal>"
 Then I see element confirmationMessage in OrderConfirmationPage
-And I save order details
+#And I save order details
 Examples:
 |Certificate|Card|Address|Paypal|
 |CertificateID|VISA|US|Paypal|
