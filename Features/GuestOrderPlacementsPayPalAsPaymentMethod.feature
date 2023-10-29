@@ -19,6 +19,7 @@ And I click on digiPlaceOrder in CheckoutPaymentBillingPage
 And I enter paypal login details of "<Paypal>"
 Then I see element confirmationMessage in OrderConfirmationPage
 And I save order details
+
 Examples:
 |Product|Card|Address|Paypal|
 |DigitalProduct|VISA|US|Paypal|

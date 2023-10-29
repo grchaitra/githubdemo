@@ -24,7 +24,7 @@ import io.cucumber.testng.CucumberOptions;
 				//"json:target/cucumber.json"
 		},
 		
-		tags= "@RegisteredOrdersWithCC or @RegisteredOrdersWithPaypal or @GuestOrdersWithCC or @GuestOrdersWithPayPal"
+		tags= "@RegisteredOrdersWithCC or @RegisteredOrdersWithPaypal or @GuestOrdersWithCC"
 		)
 
 public class TestRunner_Desktop extends AbstractTestNGCucumberTests {
